@@ -1,0 +1,63 @@
+import GA.Algorithm;
+import MDVRP.*;
+import Utils.Visualizer;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.canvas.Canvas;
+import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+
+import javafx.scene.chart.LineChart;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
+
+
+import java.util.List;
+
+
+public class Main extends Application {
+
+    @Override
+    public void start(Stage stage) {
+        String problem = "p002";
+
+        Manager manager = new Manager("data/problems/" + problem, 2);
+        Algorithm ga = new Algorithm(manager);
+
+        Solution solution = ga.run();                                                           // Run algorithm
+
+        List<CrowdedDepot> depots = solution.getDepots();
+
+        double solutionCost = solution.getIndividual().getFitness();
+        System.out.println("\nTotal distance best solution: " + solutionCost);
+
+        Manager.saveSolution(solution, "data/solutions/" + problem + ".res");        // Save solution to file
+
+        int height = 500;
+        int width = 400;
+        Canvas canvas = new Canvas(width, height);                                              // Create the Canvas
+        GraphicsContext gc = canvas.getGraphicsContext2D();                                     // Get the graphics context of the canvas
+
+        Visualizer visualizer = new Visualizer(gc);
+        visualizer.plotSolution(depots, solution.getIndividual());                              // Plot solution
+        
+        // Show result
+        Pane root = new Pane();                                                                 // Create the Pane
+
+        root.getChildren().add(canvas);                                                         // Add the Canvas to the Pane
+        Scene scene = new Scene(root);                                                          // Create the Scene
+        stage.setScene(scene);                                                                  // Add the Scene to the Stage
+        stage.setTitle("Solution");                                                             // Set the Title of the Stage
+      
+        stage.show();                                                                           // Display the Stage
+
+        // Save graphical solution to file
+        Manager.saveSolutionImage(canvas, height, width, "data/solutionImages/" + problem + "slg0224" + ".png");
+    }
+
+    public static void main(String[] args) {
+        Application.launch(args);
+    }
+}
