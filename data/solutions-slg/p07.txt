@@ -1,0 +1,32 @@
+Number of customer: 100
+Number of depots:   4
+------------------------
+Depot 1 has 27 customers
+Depot 2 has 22 customers
+Depot 3 has 26 customers
+Depot 4 has 25 customers
+
+Initial population size: 100
+Generation: 0  |  Population size: 100  | Average total distance: 205.84815458526242
+Generation: 100  |  Population size: 100  | Average total distance: 103.64164664865413  | Best individual distance 80.02354423054882  | Best individual is feasible: false  | Worst individual distance 105.81965067271032
+Generation: 200  |  Population size: 100  | Average total distance: 95.97320026939315  | Best individual distance 79.66233649902763  | Best individual is feasible: false  | Worst individual distance 96.17314623445436
+Generation: 300  |  Population size: 100  | Average total distance: 94.21251063103514  | Best individual distance 79.66233649902763  | Best individual is feasible: false  | Worst individual distance 96.17314623445436
+Generation: 400  |  Population size: 100  | Average total distance: 98.6962990151812  | Best individual distance 82.95121138117638  | Best individual is feasible: true  | Worst individual distance 103.2442432097877
+Generation: 500  |  Population size: 100  | Average total distance: 99.16942529932632  | Best individual distance 80.98210440015626  | Best individual is feasible: true  | Worst individual distance 103.2442432097877
+Generation: 600  |  Population size: 100  | Average total distance: 93.47892232939188  | Best individual distance 80.02354423054882  | Best individual is feasible: true  | Worst individual distance 98.53581593816416
+Generation: 700  |  Population size: 100  | Average total distance: 94.45400002741775  | Best individual distance 79.51812106618982  | Best individual is feasible: true  | Worst individual distance 98.53581593816416
+Setting mutation operator in refinement state
+Lowering crossover rate to 0.4
+Generation: 800  |  Population size: 100  | Average total distance: 96.07490192170675  | Best individual distance 79.51812106618982  | Best individual is feasible: true  | Worst individual distance 97.698586408428
+Generation: 900  |  Population size: 100  | Average total distance: 88.40384341922456  | Best individual distance 79.51812106618982  | Best individual is feasible: true  | Worst individual distance 91.10292533038843
+Generation: 1000  |  Population size: 100  | Average total distance: 89.27079327265429  | Best individual distance 79.51812106618982  | Best individual is feasible: true  | Worst individual distance 91.10292533038843
+Generation: 1100  |  Population size: 100  | Average total distance: 90.25760132095341  | Best individual distance 79.51812106618982  | Best individual is feasible: true  | Worst individual distance 91.10292533038843
+Generation: 1200  |  Population size: 100  | Average total distance: 90.42687771896549  | Best individual distance 79.51812106618982  | Best individual is feasible: true  | Worst individual distance 91.10292533038843
+Number of feasible solutions: 100
+Result is feasible true
+Depot1: [83, 82, 18, 60, 85, 61] - [5, 16, 91, 93, 96, 6, 89] - [99, 98, 44, 38, 86, 17, 84] - [7, 48, 47, 36, 46, 8, 45]|  Depot2: [54, 24, 29, 78, 79, 68] - [80, 34, 35, 81, 33, 77, 76] - [55, 25, 67, 39, 56, 12] - [4, 26, 28, 3]|  Depot3: [42, 14, 92, 59, 95, 13] - [2, 97, 87, 57, 74, 75, 21, 40] - [41, 22, 23, 72, 73] - [15, 43, 100, 37, 94, 53, 58]|  Depot4: [88, 62, 11, 64, 63, 90, 32, 70] - [10, 49, 19, 31] - [30, 20, 66, 65, 71] - [52, 27, 69, 1, 50, 9, 51]
+Depot 1 has customers: [83, 82, 18, 60, 85, 61, 5, 16, 91, 93, 96, 6, 89, 99, 98, 44, 38, 86, 17, 84, 7, 48, 47, 36, 46, 8, 45]
+Depot 2 has customers: [54, 24, 29, 78, 79, 68, 80, 34, 35, 81, 33, 77, 76, 55, 25, 67, 39, 56, 12, 4, 26, 28, 3]
+Depot 3 has customers: [42, 14, 92, 59, 95, 13, 2, 97, 87, 57, 74, 75, 21, 40, 41, 22, 23, 72, 73, 15, 43, 100, 37, 94, 53, 58]
+Depot 4 has customers: [88, 62, 11, 64, 63, 90, 32, 70, 10, 49, 19, 31, 30, 20, 66, 65, 71, 52, 27, 69, 1, 50, 9, 51]
+最优距离为 79.51812106618982

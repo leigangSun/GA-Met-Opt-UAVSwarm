@@ -1,0 +1,28 @@
+Number of customer: 249
+Number of depots:   2
+------------------------
+Depot 1 has 132 customers
+Depot 2 has 117 customers
+
+Initial population size: 100
+Generation: 0  |  Population size: 100  | Average total distance: 1257.620282141299
+Generation: 100  |  Population size: 100  | Average total distance: 378.7821184579006  | Best individual distance 309.74468680024523  | Best individual is feasible: true  | Worst individual distance 496.21340012670714
+Generation: 200  |  Population size: 100  | Average total distance: 308.39965232109773  | Best individual distance 298.6215522572384  | Best individual is feasible: true  | Worst individual distance 309.8521595932966
+Generation: 300  |  Population size: 100  | Average total distance: 307.18970726474555  | Best individual distance 291.84661374109317  | Best individual is feasible: true  | Worst individual distance 309.8521595932966
+Generation: 400  |  Population size: 100  | Average total distance: 306.8247823677437  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 309.2048877990184
+Generation: 500  |  Population size: 100  | Average total distance: 306.4323816524192  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 309.2048877990184
+Generation: 600  |  Population size: 100  | Average total distance: 307.29388548481467  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 309.2048877990184
+Generation: 700  |  Population size: 100  | Average total distance: 307.49331309475394  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 309.2048877990184
+Setting mutation operator in refinement state
+Lowering crossover rate to 0.4
+Generation: 800  |  Population size: 100  | Average total distance: 307.3762724599456  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 309.2048877990184
+Generation: 900  |  Population size: 100  | Average total distance: 305.7060439097637  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 308.59531941278266
+Generation: 1000  |  Population size: 100  | Average total distance: 305.2546138394551  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 308.40737634870305
+Generation: 1100  |  Population size: 100  | Average total distance: 303.9610719039548  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 307.87121159665446
+Generation: 1200  |  Population size: 100  | Average total distance: 300.72127348514977  | Best individual distance 291.58875149772155  | Best individual is feasible: true  | Worst individual distance 303.74671291445384
+Number of feasible solutions: 100
+Result is feasible true
+Depot1: [73, 185, 19, 211, 90, 61, 133, 5, 54, 83, 189] - [195, 217, 114, 13, 101, 157, 207, 198] - [112, 213, 8, 123, 118, 135, 84, 162, 219, 15, 249] - [131, 39, 102, 52, 59, 75, 16, 146, 177, 69] - [224, 242, 66, 80, 238, 167, 89, 248, 121, 106, 150] - [137, 9, 203, 57, 11, 241, 225, 176, 136, 233, 237] - [204, 191, 49, 124, 173, 82, 38, 163] - [18, 130, 53, 228, 206, 36, 2, 64] - [235, 56, 113, 194, 42, 193, 148, 26, 153, 230, 125] - [62, 122, 32, 201, 147, 127, 40, 24, 78, 223] - [96, 166, 72, 33, 71, 229, 31, 205, 221, 12, 30] - [1] - [190, 27, 65, 220, 183, 58, 170] - [3, 43, 175, 55, 47, 168, 103, 197, 10, 214]|  Depot2: [120, 23, 48, 179, 216, 91, 50, 247, 149, 94] - [199, 44, 105, 132, 134, 159, 20, 110, 210, 178, 111] - [128, 14, 98, 117, 240, 107, 212, 119, 152] - [25, 141, 104, 74, 129, 215, 126, 116] - [180, 156, 79, 145, 81, 164, 246] - [200, 161, 93, 187, 174, 196, 109, 227] - [37, 165, 169, 181, 171, 67, 51, 85, 222] - [95, 182, 35, 239, 218, 184, 192, 144] - [28, 34, 87, 115, 100, 4, 160, 208] - [143, 45, 77, 88, 151, 86, 245, 46, 63] - [7, 21, 234, 68, 232, 202, 139, 231, 142, 99, 186] - [6, 226, 17, 243] - [140, 172, 138, 209, 244, 108, 70, 155, 76, 154, 188] - [22, 236, 92, 41, 60, 158, 29, 97]
+Depot 1 has customers: [73, 185, 19, 211, 90, 61, 133, 5, 54, 83, 189, 195, 217, 114, 13, 101, 157, 207, 198, 112, 213, 8, 123, 118, 135, 84, 162, 219, 15, 249, 131, 39, 102, 52, 59, 75, 16, 146, 177, 69, 224, 242, 66, 80, 238, 167, 89, 248, 121, 106, 150, 137, 9, 203, 57, 11, 241, 225, 176, 136, 233, 237, 204, 191, 49, 124, 173, 82, 38, 163, 18, 130, 53, 228, 206, 36, 2, 64, 235, 56, 113, 194, 42, 193, 148, 26, 153, 230, 125, 62, 122, 32, 201, 147, 127, 40, 24, 78, 223, 96, 166, 72, 33, 71, 229, 31, 205, 221, 12, 30, 1, 190, 27, 65, 220, 183, 58, 170, 3, 43, 175, 55, 47, 168, 103, 197, 10, 214]
+Depot 2 has customers: [120, 23, 48, 179, 216, 91, 50, 247, 149, 94, 199, 44, 105, 132, 134, 159, 20, 110, 210, 178, 111, 128, 14, 98, 117, 240, 107, 212, 119, 152, 25, 141, 104, 74, 129, 215, 126, 116, 180, 156, 79, 145, 81, 164, 246, 200, 161, 93, 187, 174, 196, 109, 227, 37, 165, 169, 181, 171, 67, 51, 85, 222, 95, 182, 35, 239, 218, 184, 192, 144, 28, 34, 87, 115, 100, 4, 160, 208, 143, 45, 77, 88, 151, 86, 245, 46, 63, 7, 21, 234, 68, 232, 202, 139, 231, 142, 99, 186, 6, 226, 17, 243, 140, 172, 138, 209, 244, 108, 70, 155, 76, 154, 188, 22, 236, 92, 41, 60, 158, 29, 97]
+最优距离为 291.58875149772155
